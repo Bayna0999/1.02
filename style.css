@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(245, 245, 247, 0.8);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 75px;
+  position: relative;
+}
+.headertxt {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.textcon {
+  width: 700px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 140px;
+}
+.Store {
+  color: #6e6e73;
+  font-family: "Helvetica Neue";
+  font-size: 43.875px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.541% */
+  letter-spacing: -0.144px;
+}
+.gifttext {
+  color: #6e6e73;
+  font-family: "Helvetica Neue";
+  font-size: 43.875px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.541% */
+  letter-spacing: -0.144px;
+}
+.text2 {
+  color: #6e6e73;
+  font-family: "Helvetica Neue";
+  font-size: 25.594px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 125.031% */
+  letter-spacing: 0.196px;
+}
+.latesttext {
+  color: #6e6e73;
+  font-family: "Helvetica Neue";
+  font-size: 25.594px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 125.031% */
+  letter-spacing: 0.196px;
+}
+.con1 {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  padding: 10px 0px 40px 140px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  position: relative;
+}
+.protext {
+  margin-left: 1100px;
+  width: 200px;
+  height: 70px;
+}
+.imgcon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 200px;
+  width: 100%;
+}
+.imgbox {
+  margin-top: 5px;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgbox1 {
+  width: 480px;
+  height: 500px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 15%;
+}
+.pic1 {
+  position: absolute;
+  border-radius: 3%;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: left;
+  top: 20px;
+  left: 20px;
+}
+.colortext {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rainbowborder {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  -webkit-text-fill-color: transparent;
+  filter: blur(10px);
+}
